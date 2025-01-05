@@ -82,5 +82,8 @@
         display: none;
     }
     
+    .logo__bemposta {
+        width: 30vw;
+    }
     
 }

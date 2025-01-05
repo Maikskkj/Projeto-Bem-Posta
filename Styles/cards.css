@@ -56,10 +56,18 @@
 
 }
 
+@media  screen and (max-width: 400px) {
+    .imagem__card  {
+        width: 40%;
+        display: none;
+    }
+   
+}
+
 @media  screen and (max-width: 900px) {
     .imagem__card  {
         width: 40%;
+        
     }
-
    
 }
