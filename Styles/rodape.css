@@ -1,0 +1,33 @@
+.rodape {
+    background-color: var(--verde);
+    padding: 1em;
+}
+
+.rodape__subtitulo {
+    color: var(--azul);
+    font-weight: 500;
+    
+}
+
+.rodape__titulo {
+    color: var(--branco);
+    font-size: 45px;
+    font-weight: 700;
+    margin: 0.3em 0;
+}
+
+.rodape__texto {
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.rodape__google-maps {
+    width: 30vw;
+    height: 10vw;
+    margin: 1em 0;
+    border-radius: 14px;
+}
+
+.rodape__copy {
+    font-size: 13px;
+}

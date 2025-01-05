@@ -1,0 +1,25 @@
+.banner {
+    text-align: center;
+    margin-top: 1em;
+}
+
+.banner__imagem {
+    width: 100%;
+    
+}
+
+.banner__textos {
+    margin: 2em 0;
+    margin-bottom: 5em;
+}
+
+.banner__titulo {
+    font-weight: 700;
+    font-size: 48px;
+    color: var(--verde);
+}
+
+.banner__texto {
+    font-weight: 500;
+    font-size: 16px;
+}

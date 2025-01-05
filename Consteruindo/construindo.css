@@ -1,0 +1,33 @@
+.construção {
+   padding: 20vw;
+   display: flex;
+   text-align: center;
+   flex-direction: column;
+}
+
+.construção__titulo {
+    font-size: 40px;
+    font-weight: 700;
+    color: var(--verde);
+}
+
+.construção__texto {
+    font-size: 15px;
+    font-weight: 400;
+    margin: 1em;
+}
+
+.construção__botao {
+    text-decoration: none;
+    color: var(--azul);
+    background-color: var(--branco);
+    box-shadow: 0px 10px 10px 0px var(--verde);
+    padding: 1em 0;
+    font-weight: 600;
+}
+
+.progress {
+    margin: 1em;
+    width: 56vw;
+    color: var(--verde);
+}

@@ -1,0 +1,65 @@
+.cards-informativos {
+    margin: 2em;
+    width: 70vw;
+    align-items: center;
+    justify-content: center;
+    margin: auto;  
+  
+}
+
+.conteudo__container {
+    display: flex;
+    margin: 2em 0;
+    background-color: var(--cinza);
+    padding: 1em;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagem__card {
+    width: 20%;
+    border-radius: 10px;
+    margin-right: 2em;
+}
+
+.card__titulo {
+    font-weight: 600;
+    font-size: 30px;
+    margin-bottom: 1em;
+    
+}
+
+.card__texto {
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.igreja {
+    color: var(--azul);
+}
+
+.botao__container {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 1em 0; 
+}
+
+.info__botao {
+    text-decoration: none;
+    color: var(--branco);
+    background-color: var(--verde);
+    padding: 1em;
+    border-radius: 10px;
+
+}
+
+@media  screen and (max-width: 900px) {
+    .imagem__card  {
+        width: 40%;
+    }
+
+   
+}
